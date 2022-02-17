@@ -1,0 +1,64 @@
+body{
+    font-family: Tahoma, sans-serif;
+    padding: 0;  
+    margin: 0;
+    background-image: linear-gradient(rgb(168, 166, 166), transparent);
+   
+}
+
+#principal{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.topo{
+    position: relative;
+}
+
+nav{
+    text-align: center;
+    float: right;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
+
+nav li{
+    text-align: right;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 6px grey, 1px 1px 6px rgb(165, 164, 164), 1.5px 1.5px 6px rgb(199, 199, 199);
+    margin: 3px;
+    padding: 0.5px;
+    letter-spacing: 2px;
+    width: auto;
+    background-color: rgba(255, 255, 255, .7);
+    
+
+}
+
+nav li a{
+    text-decoration: none;
+    line-height: 1;
+    color: rgb(3, 29, 3);
+    transition: color 0.2s linear; 
+}
+
+nav li a:hover{
+    color: rgb(126, 187, 12);
+}
+
+nav li:hover{
+    background-color: rgba(255, 255, 255, .4);
+    
+}
+
+.img-topo{
+    width: 100%;  
+}
+
+
